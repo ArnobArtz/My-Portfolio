@@ -1,0 +1,17 @@
+.mother-div{
+    padding: 10px; 
+    border-color: black; 
+    border-width: 1px; 
+    border-style: solid; 
+    height: 300px; 
+    width: 250px; justify-content: center; align-items: center;
+}
+.green{
+    background-color: green; 
+    border: solid 1px black; 
+    height: 180px; 
+    width: 180px; 
+    margin-left: 25px; 
+    display: flex;
+    position: static;
+}
