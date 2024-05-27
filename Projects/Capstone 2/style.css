@@ -1,0 +1,123 @@
+/* Apply box-sizing to include padding and border in the element's total width and height */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.first-box {
+    height: 1000px;
+    width: 100%;
+    background-image: url(../Backgrounds/boliviainteligente-8ZVf1Um0rMk-unsplash.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.hello, .name {
+    text-align: center;
+    color: #ECB176; 
+}
+
+.hello {
+    font-size: 2.5rem;
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+}
+
+.name {
+    font-size: 2rem;
+    color: rgb(255, 213, 27);
+    font-weight: bolder;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.pic {
+    height: 200px; 
+    border-radius: 50%;
+    width: 200px; 
+    vertical-align: middle;
+}
+
+.second-box {
+    
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(../Backgrounds/white.jpg);
+}
+
+.pic-div {
+    text-align: center;    
+}
+.intro{
+    display: flex; 
+    position: absolute;
+    top: 535px;
+    font-size: 1.3rem;
+    font-family: broadway;
+}
+.third-box{
+ 
+    position: relative;
+    height: 460px;
+}
+.button{
+    position: relative; 
+    top: 70px; left: 45%;
+}
+.footer{
+    position: relative; 
+    top: 110px; display: flex; 
+    background-color: aquamarine;
+    height: 240px;
+    justify-content: center;
+    
+}
+.sm{
+    margin-left: 40px; 
+    margin-right: 40px; 
+    margin-top: 50px; font-size: 28px;
+    font-style: oblique;
+    font-family:  Blackadder ITC; 
+}
+.sm:hover{
+    color: white; cursor: pointer;
+}
+.sm:active{
+    opacity: 0,5; color: black; 
+}
+.contact-me-button{
+    background-color: bisque;
+    padding: 16px; border-radius: 28px;
+    font-size: 16px; font-weight: 900;
+    border: none; box-shadow: 1px 2px rgb(0,0,0,0.4); 
+    cursor: pointer; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact-me-button:hover{
+    opacity: 0.7;
+
+}
+.contact-me-button:active{
+    background-color: rgb(255, 159, 102); 
+}
+.footer-text{
+    position: relative;
+    top: 160px; left: 40%; margin-bottom: 10px; 
+}
